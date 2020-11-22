@@ -1,0 +1,66 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+		KeyDown="KeyDownClick"
+		KeyUp="KeyUpPass"
+		
+        Title="Calculator" Height="500" Width="748" ResizeMode="NoResize">
+	<Grid Margin="0,0,0,0">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.Background>
+			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+				<GradientStop Color="#FFE7F2F7" Offset="0"/>
+				<GradientStop Color="#FF94A3AC" Offset="1"/>
+			</LinearGradientBrush>
+		</Grid.Background>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		
+		<Button Click="ButtonClick" x:Name="b0" Content="0" Width="145" Margin="0,0,294,1" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b1" Content="1" Width="147" Margin="0,0,439,63" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b2" Content="2" Width="145" Margin="0,0,294,63" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b3" Content="3" Width="147" Margin="0,0,147,63" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b4" Content="4" Width="147" Margin="0,0,439,125" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b5" Content="5" Width="145" Margin="0,0,294,125" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b6" Content="6" Width="147" Margin="0,0,147,125" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b7" Content="7" Width="147" Margin="0,0,439,187" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontSize="14" FontWeight="Bold" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b8" Content="8" Width="145" Margin="0,0,294,187" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="b9" Content="9" Width="147" Margin="0,0,147,187" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" FontWeight="Bold" FontSize="14" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bdot" Content="." Width="147" Margin="0,0,147,1" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bnotx" Content="¹/x" Width="146" Margin="0,0,586,1" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bx3" Content="x³" Width="146" Margin="0,0,586,63" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bx2" Content="x²" Width="146" Margin="0,0,586,125" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bplusminus" Content="±" Width="147" Margin="0,0,439,1" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bsqrt" Content="√" Width="146" Margin="0,0,586,187" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+
+		<Button Click="ButtonClick" x:Name="bperc" Content="%" Width="146" Margin="0,0,586,249" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+
+		<Button Click="ButtonClick" x:Name="bce" Content="CE" Width="147" Margin="0,0,439,249" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bc" Content="C" Width="145" Margin="0,0,294,249" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+		<Button Click="ButtonClick" x:Name="bnoforwardspace" Content="←" Width="147" Margin="0,0,147,249" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right"/>
+
+		<Button Click="ButtonClick" x:Name="bequal" Content="=" Width="146" Margin="0,0,1,1" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="#FFEAEAEA" Opacity="0.7" HorizontalAlignment="Right" FontSize="18"/>
+
+		<Button Click="ButtonClick" x:Name="bplus" Content="+" Width="146" Margin="0,0,1,63" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right" FontSize="18"/>
+		<Button Click="ButtonClick" x:Name="bminus" Content="-" Width="146" Margin="0,0,1,125" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right" FontSize="18"/>
+		<Button Click="ButtonClick" x:Name="bmulti" Content="*" Width="146" Margin="0,0,1,187" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right" FontSize="18"/>
+		<Button Click="ButtonClick" x:Name="bdiv" Content="÷" Width="146" Margin="0,0,1,249" Height="62" VerticalAlignment="Bottom" BorderBrush="LightGray" Background="LightGray" Opacity="0.7" HorizontalAlignment="Right" FontSize="18"/>
+
+		<TextBlock x:Name="TextBlockRes"  HorizontalAlignment="Left" Margin="175,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="511" TextAlignment="Right" FontSize="36" FontFamily="Tw Cen MT Condensed" Text="0"/> 
+		<TextBlock x:Name="TextBlockLast" HorizontalAlignment="Left" Margin="58,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="608" TextAlignment="Right" FontSize="16" FontFamily="Shonar Bangla" FontStyle="Italic"/>
+
+		<Button Click="ButtonClick" x:Name="bmc" IsEnabled="false" Content="MC" Width="76" Margin="0,0,651,315" Height="36" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Background="{x:Null}" Opacity="0.2" HorizontalAlignment="Right" Foreground="Black" FontFamily="Sylfaen" FontWeight="Bold" FontSize="16"/>
+		<Button Click="ButtonClick" x:Name="bmr" IsEnabled="false" Content="MR" Width="76" Margin="0,0,571,315" Height="36" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Background="{x:Null}" Opacity="0.2" HorizontalAlignment="Right" Foreground="Black" FontFamily="Sylfaen" FontWeight="Bold" FontSize="16"/>
+		<Button Click="ButtonClick" x:Name="bminc" Content="M+" Width="76" Margin="0,0,491,315" Height="36" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Background="{x:Null}" Opacity="0.5" HorizontalAlignment="Right" Foreground="Black" FontFamily="Sylfaen" FontWeight="Bold" FontSize="16"/>
+		<Button Click="ButtonClick" x:Name="bmdec" Content="M-" Width="76" Margin="0,0,411,315" Height="36" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Background="{x:Null}" Opacity="0.5" HorizontalAlignment="Right" Foreground="Black" FontFamily="Sylfaen" FontWeight="Bold" FontSize="16"/>
+		<Button Click="ButtonClick" x:Name="bms" Content="MS" Width="76" Margin="0,0,331,315" Height="36" VerticalAlignment="Bottom" BorderBrush="{x:Null}" Background="{x:Null}" Opacity="0.5" HorizontalAlignment="Right" Foreground="Black" FontFamily="Sylfaen" FontWeight="Bold" FontSize="16"/>
+		<TextBlock x:Name="TextBlockMemory" HorizontalAlignment="Left" Margin="24,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="141" FontFamily="Sylfaen"/>
+	</Grid>
+</Window>
