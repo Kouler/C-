@@ -58,3 +58,18 @@ C:\Users\sv25b\Desktop\Victor\Projects\C#\Pain\PAINT\obj\Debug\PAINT.csproj.Gene
 C:\Users\sv25b\Desktop\Victor\Projects\C#\Pain\PAINT\obj\Debug\PAINT.csproj.CoreCompileInputs.cache
 C:\Users\sv25b\Desktop\Victor\Projects\C#\Pain\PAINT\obj\Debug\PAINT.exe
 C:\Users\sv25b\Desktop\Victor\Projects\C#\Pain\PAINT\obj\Debug\PAINT.pdb
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\bin\Debug\PAINT.exe.config
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\bin\Debug\PAINT.exe
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\bin\Debug\PAINT.pdb
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.csprojAssemblyReference.cache
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\MainWindow.g.cs
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\App.g.cs
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT_MarkupCompile.cache
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT_MarkupCompile.lref
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\MainWindow.baml
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.g.resources
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.Properties.Resources.resources
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.csproj.GenerateResource.cache
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.csproj.CoreCompileInputs.cache
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.exe
+C:\Users\Виктор Сойкин\Desktop\Pain\Pain\PAINT\obj\Debug\PAINT.pdb
